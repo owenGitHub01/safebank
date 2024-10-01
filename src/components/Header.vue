@@ -24,7 +24,7 @@ import Logo from './Logo.vue';
 
 </template>
 
-<style>
+<style scoped>
 
 * {
   margin: 0;

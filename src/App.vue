@@ -1,12 +1,14 @@
 <script setup>
 
 import Header from './components/Header.vue';
+import Title from './components/Title.vue';
 
 </script>
 
 <template>
 
   <Header></Header>
+  <Title></Title>
 
 </template>
 
