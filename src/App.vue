@@ -1,9 +1,12 @@
 <script setup>
-import HomeView from './views/HomeView.vue';
+
+import Header from './components/Header.vue';
+
 </script>
 
 <template>
-<HomeView></HomeView>
+
+  <Header></Header>
 
 </template>
 
@@ -12,6 +15,7 @@ import HomeView from './views/HomeView.vue';
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 </style>
