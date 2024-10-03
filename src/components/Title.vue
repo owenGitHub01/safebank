@@ -6,7 +6,7 @@
 
   <div class="main">
     <h1>Bank Smarter</h1>
-    <h1 class="colour">Bank Safer</h1>
+    <h1 class="colour size">Bank Safer</h1>
     <h4 class="subheader">Banking With Confidence. Backed By Security</h4>
     <button>Apply Now</button>
     <div>
@@ -39,6 +39,9 @@
 
 .colour {
   color: rgb(49 46 129);
+}
+.size {
+  font-size: 52px;
 }
 .subheader {
   padding: 2rem 0;

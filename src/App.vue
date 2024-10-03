@@ -2,6 +2,7 @@
 
 import Header from './components/Header.vue';
 import Title from './components/Title.vue';
+import Benefits from './components/Benefits.vue';
 
 </script>
 
@@ -9,6 +10,7 @@ import Title from './components/Title.vue';
 
   <Header></Header>
   <Title></Title>
+  <Benefits></Benefits>
 
 </template>
 
