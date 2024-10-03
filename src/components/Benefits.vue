@@ -5,6 +5,8 @@ import cashback from '../images/Benefits/credit-card.png'
 import isa from '../images/Benefits/atm-card.png'
 import protection from '../images/Benefits/verified.png'
 
+
+
 const benefits = [
   {
     title: "24/7 Support",
@@ -19,11 +21,11 @@ const benefits = [
     bio: "Enjoy 1% cashback on whatever you spend! ",
     img: cashback,
     show: false,
-    button: false,
-    btnMess: ""
+    button: true,
+    btnMess: "Learn How"
   },
   {
-    title: "Unbeatable Isa/ Lisa's",
+    title: "Unbeatable Rates",
     bio: "Our high interest rate Isa's and Lisa's are available now!",
     img: isa,
     show: true,
@@ -31,7 +33,7 @@ const benefits = [
     btnMess: "Learn More"
   },
   {
-    title: "Top Notch Secuirty",
+    title: "Security",
     bio: "See pride ourselves on our protection and security protecting you from scams!",
     img: protection,
     show: false,
@@ -43,14 +45,36 @@ const benefits = [
 </script>
 
 <template>
-  <div class="flex">
+  <div class="main">
     <div class="border" v-for="item in benefits">
-      <img :src="item.img" alt="" class="icon">
-      <h1>{{ item.title }}</h1>
-      <p class="bio">{{ item.bio }}</p>
-      <div class="btn-div" v-if="item.button">
-        <button>{{ item.btnMess }}</button>
+      <div>
+        <div class="view-flex" v-if="item.show">
+
+          <div>
+            <img :src="item.img" alt="" class="icon">
+          </div>
+          <div>
+            <h1>{{ item.title }}</h1>
+            <p class="bio">{{ item.bio }}</p>
+            <div class="btn-div" v-if="item.button">
+              <button>{{ item.btnMess }}</button>
+            </div>
+          </div>
+        </div>
+        <div class="view-flex" v-if="!item.show">
+          <div>
+            <h1>{{ item.title }}</h1>
+            <p class="bio">{{ item.bio }}</p>
+            <div class="btn-div" v-if="item.button">
+              <button>{{ item.btnMess }}</button>
+            </div>
+          </div>
+          <div>
+            <img :src="item.img" alt="" class="icon">
+          </div>
+        </div>
       </div>
+      
     </div>
   </div>
 
@@ -63,16 +87,32 @@ const benefits = [
   padding: 0;
 }
 
+.main {
+  background-color: rgb(250 250 249);
+}
+
+.view-flex {
+  display: flex;
+  align-items: center;
+}  
+
+.icon {
+  width: 120px;
+  height: 160px;
+}
+
 .border {
-  width: 90%;
+  width: 80%;
+  max-width: 480px;
   margin: 0 auto;
   height: auto;
-  padding: 1rem 0 6rem;
+  padding: 1rem 0 10rem;
   text-align: center;
 }
-.icon {
-  width: 90px;
-  height: 90px;
+ 
+.bio {
+  width: 90%;
+  margin: 0 auto;
 }
 .btn-div button {
   width: 100px;
@@ -82,5 +122,6 @@ const benefits = [
   border: none;
   margin-top: 1rem;
 }
+
 
 </style>
