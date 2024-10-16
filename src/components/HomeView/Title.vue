@@ -1,5 +1,7 @@
 <script setup>
 
+import { RouterLink } from 'vue-router';
+
 </script>
 
 <template>
@@ -8,7 +10,9 @@
     <h1>Bank Smarter</h1>
     <h1 class="colour size">Bank Safer</h1>
     <h4 class="subheader">Banking With Confidence. Backed By Security</h4>
-    <button>Apply Now</button>
+    <button>
+      <RouterLink to="signup" class="link">Apply Now</RouterLink>
+    </button>
     <div>
       <img class="review" src="../../images/safebank-trustpilot.png" alt="">
       <h2>Trust <span class="colour">Millions</span> Who Have Switched To SafeBank</h2>
@@ -53,6 +57,12 @@ button {
   border-radius: 12px;
   background-color: aqua;
   border: none;
+}
+.link {
+  text-decoration: none;
+  color: black;
+  display: inline;
+  width: 100%;
 }
 
 .review {

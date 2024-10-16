@@ -86,5 +86,9 @@ button {
   background-color: aqua;
   border: none;
 }
+.link {
+  text-decoration: none;
+  color: black;
+}
 
 </style>
