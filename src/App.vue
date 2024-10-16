@@ -3,6 +3,7 @@
 import Header from './components/Header.vue';
 import Title from './components/Title.vue';
 import Benefits from './components/Benefits.vue';
+import Eligible from './components/Eligible.vue';
 
 </script>
 
@@ -11,6 +12,7 @@ import Benefits from './components/Benefits.vue';
   <Header></Header>
   <Title></Title>
   <Benefits></Benefits>
+  <Eligible></Eligible>
 
 </template>
 
@@ -20,6 +22,9 @@ import Benefits from './components/Benefits.vue';
   margin: 0;
   padding: 0;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button {
+  cursor: pointer;
 }
 
 </style>
