@@ -17,12 +17,12 @@ const eligible = [
   <div class="rest">
     <div class="view">
       <div class="flex" v-for="item in eligible">
-        <img class="icon" src="../images/tick.png" alt="">
+        <img class="icon" src="../../images/tick.png" alt="">
         <h2>{{ item }}</h2>
       </div>
     </div>
     <div class="image-div">
-        <img class="image" src="../images/smartphone.png" alt="">
+        <img class="image" src="../../images/smartphone.png" alt="">
     </div>
   </div>
   <h2 class="h2">So, What Are You Waiting For?</h2>

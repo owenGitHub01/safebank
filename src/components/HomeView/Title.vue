@@ -10,8 +10,7 @@
     <h4 class="subheader">Banking With Confidence. Backed By Security</h4>
     <button>Apply Now</button>
     <div>
-      <img class="review" src="../images/safebank-trustpilot.png" alt="">
-      
+      <img class="review" src="../../images/safebank-trustpilot.png" alt="">
       <h2>Trust <span class="colour">Millions</span> Who Have Switched To SafeBank</h2>
     </div>
     

@@ -1,26 +1,31 @@
 <script setup>
+
+import { RouterView, RouterLink } from 'vue-router';
+
 </script>
 
 <template>
 
-  <div class="main">
+
+<div class="main">
     <div class="width">
 
       <div class="title flex-title">
       
         <div class="flex-logo">
           <div class="bg">
-            <img src="../images/lock-variant.png" alt="">
+            <img src="../../images/lock-variant.png" alt="">
           </div>
         </div>
         <h1>SafeBank</h1>
       </div>
       <div class="login-div">
-        <button>Sign In</button>
+        <button>
+          <RouterLink class="link" to="/signin">Sign In</RouterLink>
+        </button>
       </div>
     </div>
   </div>
-
 </template>
 
 <style scoped>
@@ -28,7 +33,12 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+button {
+  cursor: pointer;
+}
+
 
 .main {
   width: 100%;
@@ -76,4 +86,5 @@ button {
   background-color: aqua;
   border: none;
 }
+
 </style>

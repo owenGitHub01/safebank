@@ -1,22 +1,16 @@
 <script setup>
 
-import Header from './components/Header.vue';
-import Title from './components/Title.vue';
-import Benefits from './components/Benefits.vue';
-import Eligible from './components/Eligible.vue';
+import { RouterView } from 'vue-router';
 
 </script>
 
 <template>
 
-  <Header></Header>
-  <Title></Title>
-  <Benefits></Benefits>
-  <Eligible></Eligible>
+  <RouterView></RouterView>
 
 </template>
 
-<style>
+<style scoped>
 
 * {
   margin: 0;
@@ -26,5 +20,4 @@ import Eligible from './components/Eligible.vue';
 button {
   cursor: pointer;
 }
-
 </style>

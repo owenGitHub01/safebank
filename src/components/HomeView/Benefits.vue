@@ -1,9 +1,9 @@
 <script setup>
 
-import support from '../images/Benefits/online.png'
-import cashback from '../images/Benefits/credit-card.png'
-import isa from '../images/Benefits/atm-card.png'
-import protection from '../images/Benefits/padlock.png'
+import support from '../../images/Benefits/online.png'
+import cashback from '../../images/Benefits/credit-card.png'
+import isa from '../../images/Benefits/atm-card.png'
+import protection from '../../images/Benefits/padlock.png'
 
 
 const benefits = [
