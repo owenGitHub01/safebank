@@ -87,7 +87,7 @@ const eligible = [
 
 .h2 {
   text-align: center;
-  padding-top: 4rem;
+  padding-top: 1rem;
 }
 
 @media only screen and (min-width: 700px){

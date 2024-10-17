@@ -11,7 +11,7 @@ import { RouterView, RouterLink } from 'vue-router';
     <div class="width">
 
       <div class="title flex-title">
-      
+
         <div class="flex-logo">
           <div class="bg">
             <img src="../../images/lock-variant.png" alt="">

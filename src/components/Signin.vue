@@ -95,6 +95,7 @@ button {
 }  
 .side1 {
   width: 50%;
+  padding-top: 5rem;
 }
 .login {
   padding-top: 10rem;
