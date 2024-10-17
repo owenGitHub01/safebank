@@ -4,6 +4,7 @@ import Title from './HomeView/Title.vue';
 import Benefits from './HomeView/Benefits.vue';
 import Eligible from './HomeView/Eligible.vue';
 import Header from './HomeView/Header.vue';
+import Switch from './HomeView/Switch.vue';
 
 </script>
 
@@ -13,6 +14,7 @@ import Header from './HomeView/Header.vue';
   <Title></Title>
   <Benefits></Benefits>
   <Eligible></Eligible>
+  <Switch></Switch>
 
 
 </template>

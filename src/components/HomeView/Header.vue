@@ -83,7 +83,7 @@ button {
   width: 100px;
   height: 30px;
   border-radius: 12px;
-  background-color: aqua;
+  background-color: cyan;
   border: none;
 }
 .link {

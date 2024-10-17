@@ -12,7 +12,7 @@ const eligible = [
 
 <div class="main">
   <div class="cover">
-    <h1>Are You Eligible To Use <span class="colour">SafeBank</span>?</h1>
+    <h1>Are You Eligible To Use <span class="colour">SafeBank?</span></h1>
   </div>
   <div class="rest">
     <div class="view">
@@ -40,7 +40,7 @@ const eligible = [
 
 .main {
   background-color: rgb(250 250 249);
-  padding-bottom: 20rem;
+  padding-bottom: 10rem;
 }
 
 .cover {
@@ -50,13 +50,14 @@ const eligible = [
   max-width: 700px;
   margin: 0 auto;
   border-radius: 24px;
-  background-color: rgb(103 232 249);
+  background-color: rgb(129 140 248);
+  color: white;
 }
 .cover h1 {
   padding: 20px 20px 0; 
 }
 .colour {
-  color: blueviolet;
+  color: rgb(49 46 129);
 }
 
 .rest {
